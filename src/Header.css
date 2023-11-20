@@ -1,0 +1,95 @@
+header{
+    width: 95%;
+    margin: auto;
+    height: 96px;
+    line-height: 96px;
+    user-select: none;
+    border-bottom: solid .1px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    margin-bottom: 1%;
+}
+li{
+    list-style-type: none;
+}
+.menu span{
+    text-decoration: none;
+    padding-bottom: 30px;
+}
+.logo-wrapper{
+    float: left;
+    margin-left: 0;
+    margin-top: 18%;
+    width: 95px;
+
+}
+
+.logo{
+    width: 100%;
+    
+}
+.header-menu{
+    float: left;
+    display: flex;
+    
+}
+.menu,.menu-2{
+    display: flex;
+    
+}
+.menu li{
+    font-size: 130%;
+    font-weight: normal;
+    margin-right: 20% ;
+    color: black;
+    box-sizing: border-box;
+    width: auto;
+    &:hover{
+        border-bottom: solid 4px #0bbb40;
+        color:#0bbb40
+    }
+}
+.menu-2{
+    float: right;
+    margin-right: 140px;
+}
+.menu-2 li{
+    width: auto;
+    box-sizing: border-box;
+    margin-right: 60%;
+}
+
+
+.Language-selection{
+    border: none;
+    height: 40px;
+    &:hover{
+        border: none;
+    }
+    & option{
+        border-radius: none;
+    }
+    font-size: 110%;
+}
+.ic{
+    position: relative;
+    width: auto;
+    
+}
+.icon-wrapper{
+    z-index: 0;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius:100% ;
+    margin-top: 1.7em;
+}
+.icons{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 20px;
+    margin-left: .54em;
+    margin-top: .5em;
+    
+    
+}

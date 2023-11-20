@@ -1,0 +1,26 @@
+.content{
+    width: 95%;
+    margin: auto;
+    height: 650px;
+    border-radius: 30px;
+}
+.left-content,.right-content{
+    height: 100%;
+    float:left;
+    background-color: #ecfdf3;
+    padding-top: 72px;
+    padding-bottom: 6%;
+}
+
+.left-content{
+    border-radius: 20px 0 0 20px;
+    overflow: hidden;
+    width: 45%;
+
+}
+
+.right-content{
+    border-radius: 0 20px 20px 0;
+    width: 55%;
+
+}
